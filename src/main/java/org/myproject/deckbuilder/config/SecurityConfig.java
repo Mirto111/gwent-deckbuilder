@@ -1,5 +1,9 @@
 package org.myproject.deckbuilder.config;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -24,8 +28,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
 //    https://stackoverflow.com/a/48927348/548473
     protected CorsConfigurationSource corsConfigurationSource() {
+        final CorsConfiguration configuration = new CorsConfiguration();
+        configuration.applyPermitDefaultValues();
+        List<String> stringList = Arrays.asList("HEAD", "GET", "POST", "PUT", "DELETE", "PATCH");
+        configuration.setAllowedMethods(Collections.unmodifiableList(stringList));
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        source.registerCorsConfiguration("/**", new CorsConfiguration().applyPermitDefaultValues());
+        source.registerCorsConfiguration("/**",configuration);
         return source;
     }
 
