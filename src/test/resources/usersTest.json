@@ -1,0 +1,13 @@
+{
+	"id" : "23434343424",
+	"username": "admin",
+	"password" : "{noop}admin",
+	"role" : "ROLE_ADMIN"
+
+}
+{
+	"id" : "23434343425",
+	"username": "user",
+	"password" : "{noop}user",
+	"role" : "ROLE_USER"
+}

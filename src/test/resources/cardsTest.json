@@ -1,0 +1,163 @@
+{
+  "availability": "BaseSet",
+  "cardType": "Unit",
+  "categories": [
+    "Witcher"
+  ],
+  "faction": "Neutral",
+  "flavor": {
+    "en-US": "I go wherever I please, whenever I please.",
+    "ru-RU": "\u0410 \u044f \u043c\u043e\u0433\u0443 \u0438\u0434\u0442\u0438 \u0433\u0434\u0435 \u0445\u043e\u0447\u0443 \u0438 \u043a\u043e\u0433\u0434\u0430 \u0445\u043e\u0447\u0443."
+  },
+  "info": {
+    "en-US": "Whenever you lose a round, return this unit from the battlefield to your hand.",
+    "ru-RU": "\u0412\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u0439\u0442\u0435 \u044d\u0442\u043e\u0442 \u043e\u0442\u0440\u044f\u0434 \u0441 \u043f\u043e\u043b\u044f \u0432 \u0432\u0430\u0448\u0443 \u0440\u0443\u043a\u0443 \u043a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0432\u0430\u0435\u0442\u0435 \u0440\u0430\u0443\u043d\u0434."
+  },
+  "ingameArtId": "1007",
+  "ingameId": "112101",
+  "keywords": [],
+  "name": {
+    "en-US": "Ciri",
+    "ru-RU": "\u0426\u0438\u0440\u0438"
+  },
+  "provision": 8,
+  "rarity": "Legendary",
+  "related": [],
+  "released": true,
+  "strength": 4,
+  "type": "Gold"
+}
+{
+  "availability": "BaseSet",
+  "cardType": "Unit",
+  "categories": [
+    "Human",
+    "Mage"
+  ],
+  "faction": "Neutral",
+  "flavor": {
+    "en-US": "Magic is Chaos, Art and Science. It is a curse, a blessing and a progression.",
+    "ru-RU": "\u0417\u0430\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c \u043c\u043e\u0436\u043d\u043e \u043a\u0430\u0436\u0434\u043e\u0433\u043e, \u0434\u0430\u0436\u0435 \u043c\u0435\u0440\u0442\u0432\u0435\u0446\u0430... \u041d\u0443\u0436\u043d\u043e \u0442\u043e\u043b\u044c\u043a\u043e \u0437\u043d\u0430\u0442\u044c \u043a\u0430\u043a."
+  },
+  "info": {
+    "en-US": "Deploy (Melee): Damage all other units by 2. \nDeploy (Ranged): Boost all other units by 2.\n",
+    "ru-RU": "\u0420\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u0435 (\u0440\u0443\u043a\u043e\u043f\u0430\u0448\u043d\u044b\u0439 \u0440\u044f\u0434): \u043d\u0430\u043d\u0435\u0441\u0438\u0442\u0435 \u043f\u043e 2 \u0435\u0434. \u0443\u0440\u043e\u043d\u0430 \u0432\u0441\u0435\u043c \u043e\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0442\u0440\u044f\u0434\u0430\u043c. \n\u0420\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u0435 (\u0434\u0430\u043b\u044c\u043d\u043e\u0431\u043e\u0439\u043d\u044b\u0439 \u0440\u044f\u0434): \u0443\u0441\u0438\u043b\u044c\u0442\u0435 \u0432\u0441\u0435 \u043e\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0435 \u043e\u0442\u0440\u044f\u0434\u044b \u043d\u0430 2 \u0435\u0434.\n"
+  },
+  "ingameArtId": "1014",
+  "ingameId": "112108",
+  "keywords": [
+    "Deploy",
+    "Melee",
+    "Ranged"
+  ],
+  "name": {
+    "en-US": "Yennefer of Vengerberg",
+    "ru-RU": "\u0419\u0435\u043d\u043d\u0438\u0444\u044d\u0440 \u0438\u0437 \u0412\u0435\u043d\u0433\u0435\u0440\u0431\u0435\u0440\u0433\u0430"
+  },
+  "provision": 11,
+  "rarity": "Legendary",
+  "related": [],
+  "released": true,
+  "strength": 2,
+  "type": "Gold"
+}
+{
+  "availability": "BaseSet",
+  "cardType": "Unit",
+  "categories": [
+    "Human",
+    "Soldier"
+  ],
+  "faction": "Northern_Realms",
+  "flavor": {
+    "en-US": "A patriot\u2026 and a real pain in the rear.",
+    "ru-RU": "\u0414\u0440\u044f\u043d\u044c \u0447\u0435\u043b\u043e\u0432\u0435\u043a, \u043d\u043e \u043f\u0430\u0442\u0440\u0438\u043e\u0442."
+  },
+  "info": {
+    "en-US": "Spying.\nDeploy: Play the top 2 cards from your deck.\n",
+    "ru-RU": "\u0428\u043f\u0438\u043e\u043d.\n\u0420\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u0435: \u0441\u044b\u0433\u0440\u0430\u0439\u0442\u0435 \u0432\u0435\u0440\u0445\u043d\u0438\u0435 \u043a\u0430\u0440\u0442\u044b (2) \u0438\u0437 \u0432\u0430\u0448\u0435\u0439 \u043a\u043e\u043b\u043e\u0434\u044b.\n"
+  },
+  "ingameArtId": "1074",
+  "ingameId": "122102",
+  "keywords": [
+    "Spying",
+    "Deploy"
+  ],
+  "name": {
+    "en-US": "Vernon Roche",
+    "ru-RU": "\u0412\u0435\u0440\u043d\u043e\u043d \u0420\u043e\u0448\u0435"
+  },
+  "provision": 12,
+  "rarity": "Legendary",
+  "related": [],
+  "released": true,
+  "strength": 3,
+  "type": "Gold"
+}
+{
+  "availability": "Novigrad",
+  "cardType": "Leader",
+  "categories": [
+    "Leader"
+  ],
+  "faction": "Syndicate",
+  "flavor": {
+    "en-US": "Really believe you can dupe me with that tale you just pulled from your arse?",
+    "ru-RU": "\u0413\u0432\u0438\u043d\u0442 \u043d\u0430\u043f\u043e\u043c\u0438\u043d\u0430\u0435\u0442 \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u0443. \u0422\u043e\u043b\u044c\u043a\u043e \u0447\u0435\u0441\u0442\u043d\u0435\u0435."
+  },
+  "info": {
+    "en-US": "Order: Gain 1 Coin. Charge: 5\nWhenever you play a Crime card, gain 1 Coin.\n",
+    "ru-RU": "\u041f\u0440\u0438\u043a\u0430\u0437: \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 1 \u043c\u043e\u043d\u0435\u0442\u0443. \u0417\u0430\u0440\u044f\u0434\u044b: 5.\n\u041f\u043e\u043b\u0443\u0447\u0430\u0439\u0442\u0435 \u043f\u043e 1 \u043c\u043e\u043d\u0435\u0442\u0435 \u043a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0438\u0433\u0440\u0430\u0435\u0442\u0435 \u043a\u0430\u0440\u0442\u0443 \u043f\u0440\u0435\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f.\n"
+  },
+  "ingameArtId": "1797",
+  "ingameId": "122105",
+  "keywords": [
+    "Order",
+    "Coin",
+    "Charge"
+  ],
+  "mulligans": 0,
+  "name": {
+    "en-US": "Sigismund Dijkstra",
+    "ru-RU": "\u0421\u0438\u0433\u0438\u0437\u043c\u0443\u043d\u0434 \u0414\u0438\u0439\u043a\u0441\u0442\u0440\u0430"
+  },
+  "provision": 15,
+  "provisionBoost": 15,
+  "rarity": "Legendary",
+  "related": [],
+  "released": true,
+  "strength": 0,
+  "type": "Leader"
+}
+{
+  "availability": "BaseSet",
+  "cardType": "Unit",
+  "categories": [
+    "Wild Hunt"
+  ],
+  "faction": "Monster",
+  "flavor": {
+    "en-US": "Paintings should convey emotion, not words.",
+    "ru-RU": "\u041a\u0430\u0440\u0442\u0438\u043d\u0430 \u0434\u043e\u043b\u0436\u043d\u0430 \u043f\u0435\u0440\u0435\u0434\u0430\u0432\u0430\u0442\u044c \u044d\u043c\u043e\u0446\u0438\u0438, \u0430 \u043d\u0435 \u0441\u043b\u043e\u0432\u0430."
+  },
+  "info": {
+    "en-US": "Ranged: Whenever you play a unit with Deathwish, trigger its Deathwish ability.\n",
+    "ru-RU": "\u0414\u0430\u043b\u044c\u043d\u043e\u0431\u043e\u0439\u043d\u044b\u0439 \u0440\u044f\u0434: \u043a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0438\u0433\u0440\u0430\u0435\u0442\u0435 \u043e\u0442\u0440\u044f\u0434 \u0441\u043e \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c\u044e \u0417\u0430\u0432\u0435\u0449\u0430\u043d\u0438\u0435, \u0430\u043a\u0442\u0438\u0432\u0438\u0440\u0443\u0439\u0442\u0435 \u0435\u0433\u043e \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u0417\u0430\u0432\u0435\u0449\u0430\u043d\u0438\u0435.\n"
+  },
+  "ingameArtId": "1128",
+  "ingameId": "131102",
+  "keywords": [
+    "Ranged",
+    "Deathwish"
+  ],
+  "name": {
+    "en-US": "Ge'els",
+    "ru-RU": "\u0413\u0435'\u044d\u043b\u044c\u0441"
+  },
+  "provision": 10,
+  "rarity": "Legendary",
+  "related": [],
+  "released": true,
+  "strength": 5,
+  "type": "Gold"
+}

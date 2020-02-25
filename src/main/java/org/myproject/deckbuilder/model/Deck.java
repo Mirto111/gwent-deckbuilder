@@ -1,14 +1,12 @@
 package org.myproject.deckbuilder.model;
 
 import java.util.List;
-import org.myproject.deckbuilder.model.Card;
-import org.myproject.deckbuilder.model.CardWithQuant;
-import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DBRef;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @EqualsAndHashCode()
@@ -17,7 +15,7 @@ import lombok.ToString;
 public class Deck {
 
   @Id
-  private String _id;
+  private String id;
 
   private String name;
 
@@ -41,5 +39,8 @@ public class Deck {
   private int scraps;
 
   private List<CardWithQuant> deckList;
+
+  @DBRef(lazy = true)
+  private User user;
 
 }

@@ -1,17 +1,20 @@
 package org.myproject.deckbuilder.model;
 
-import org.myproject.deckbuilder.model.Card;
-import org.springframework.data.mongodb.core.mapping.DBRef;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 
 @Data
 @EqualsAndHashCode()
+@AllArgsConstructor
+@NoArgsConstructor
 public class CardWithQuant {
 
-    @DBRef
-    private Card card;
+  @DBRef
+  private Card card;
 
-    private int quantity;
+  private int quantity;
 
 }

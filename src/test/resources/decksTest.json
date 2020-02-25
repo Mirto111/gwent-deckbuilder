@@ -1,0 +1,33 @@
+{
+  "_id" : "1423434342",
+  "name":"Дека монстров",
+  "leader":{"$ref":"cards","$id":"122105"},
+  "description":"test test",
+  "provision":165,
+  "maxProvision":166,
+  "minCards":25,
+  "cardsContained":25,
+  "minUnits":13,
+  "unitsContained":22,
+  "scraps":4550,
+  "deckList":[
+    {"card":{"$ref":"cards","$id":"112101"},"quantity":1}],
+  "user":{"$ref":"users", "$id":"23434343425"}
+}
+{
+  "_id" : "1423434343",
+  "name":"Test test",
+  "leader":{"$ref":"cards","$id":"122105"},
+  "description":"test test",
+  "provision":165,
+  "maxProvision":166,
+  "minCards":25,
+  "cardsContained":25,
+  "minUnits":13,
+  "unitsContained":22,
+  "scraps":4550,
+  "deckList":[
+    {"card":{"$ref":"cards","$id":"112101"},"quantity":1},
+    {"card":{"$ref":"cards","$id":"112108"},"quantity":1}],
+  "user":{"$ref":"users", "$id":"23434343424"}
+}

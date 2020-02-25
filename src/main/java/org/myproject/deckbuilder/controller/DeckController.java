@@ -29,7 +29,7 @@ public class DeckController {
 
   @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE, value = "/{id}")
   public Deck get(@PathVariable("id") String id) {
-    return deckRepository.findBy_id(id);
+    return deckRepository.findById(id).orElseThrow(IllegalArgumentException::new);
   }
 
   @GetMapping()
@@ -47,6 +47,11 @@ public class DeckController {
   @DeleteMapping(value = "/{id}")
   public void delete(@PathVariable("id") String id) {
     deckRepository.deleteById(id);
+  }
+
+  @GetMapping(value = "/user/{id}")
+  public List<Deck> findAllByUser(@PathVariable("id") String id) {
+    return deckRepository.findAllByUserId(id);
   }
 
 }
