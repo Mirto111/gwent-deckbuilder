@@ -6,7 +6,7 @@ import org.myproject.deckbuilder.model.Faction;
 import org.myproject.deckbuilder.model.CardType;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface CardRepository extends MongoRepository<Card, String> {
+public interface CardRepository extends MongoRepository<Card, Integer> {
 
   List<Card> findByFaction(Faction faction);
 

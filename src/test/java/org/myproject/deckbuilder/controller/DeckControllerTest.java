@@ -40,9 +40,9 @@ public class DeckControllerTest {
   public static void init(@Autowired MongoTemplate mongoTemplate) throws IOException {
 
     TestData.initialize(mongoTemplate, "users", new File("src/test/resources/usersTest.json"),
-        User.class);
+        Document.class);
     TestData.initialize(mongoTemplate, "cards", new File("src/test/resources/cardsTest.json"),
-        Card.class);
+        Document.class);
     TestData.initialize(mongoTemplate, "decks", new File("src/test/resources/decksTest.json"),
         Document.class);
   }

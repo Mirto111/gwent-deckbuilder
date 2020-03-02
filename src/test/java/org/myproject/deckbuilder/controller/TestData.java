@@ -26,7 +26,7 @@ public class TestData {
   public static Card card2 = new Card();
 
   static {
-    leader.setId("122105");
+    leader.setId(122105);
     leader.setName(Map.of("en-US", "Sigismund Dijkstra", "ru-RU", "Сигизмунд Дийкстра"));
     leader.setProvision(15);
     leader.setStrength(0);
@@ -43,7 +43,7 @@ public class TestData {
         ));
     leader.setCategories(Arrays.asList("Leader"));
 
-    card1.setId("112108");
+    card1.setId(112108);
     card1.setName(Map.of("en-US", "Yennefer of Vengerberg", "ru-RU", "Йеннифэр из Венгерберга"));
     card1.setProvision(11);
     card1.setStrength(2);
@@ -62,7 +62,7 @@ public class TestData {
     card1.setCategories(Arrays.asList("Human",
         "Mage"));
 
-    card2.setId("112101");
+    card2.setId(112101);
     card2.setCardTier(CardTier.Gold);
     card2.setCardType(CardType.Unit);
     card2.setCategories(Arrays.asList("Witcher"));

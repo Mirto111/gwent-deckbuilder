@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import org.bson.Document;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -28,7 +29,7 @@ public class CardControllerTest {
   @BeforeAll
   public static void init(@Autowired MongoTemplate mongoTemplate) throws IOException {
     TestData.initialize(mongoTemplate, "cards", new File("src/test/resources/cardsTest.json"),
-        Card.class);
+        Document.class);
   }
 
   // 5 cards, 2 neutral, 3 diff factions(1 leader)
@@ -36,7 +37,7 @@ public class CardControllerTest {
   @Test
   public void get() {
 
-    assertEquals(TestData.card1, cardRepository.findById("112108").get());
+    assertEquals(TestData.card1, cardRepository.findById(112108).get());
   }
 
   @Test

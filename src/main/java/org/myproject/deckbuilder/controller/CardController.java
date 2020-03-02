@@ -29,7 +29,7 @@ public class CardController {
   }
 
   @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE, value = "/{id}")
-  public Card get(@PathVariable("id") String id) {
+  public Card get(@PathVariable("id") int id) {
     return crudRepository.findById(id).orElseThrow(IllegalArgumentException::new);
   }
 
