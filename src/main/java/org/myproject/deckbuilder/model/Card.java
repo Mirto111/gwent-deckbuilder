@@ -17,7 +17,7 @@ public class Card {
   @Id
   private int id;
 
-  private Map<String, String> name;
+  private String name;
 
   private int provision;
 
@@ -35,7 +35,7 @@ public class Card {
   private CardType cardType;
 
   @Field(value = "info")
-  private Map<String, String> description;
+  private String description;
 
   private List<String> categories;
 
